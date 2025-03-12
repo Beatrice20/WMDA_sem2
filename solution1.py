@@ -13,7 +13,7 @@ y = wine.target
 X_train, X_test, y_train, y_test = train_test_split(
     X, y,
     test_size=0.2,
-    random_state=30
+    random_state=42
 )
 
 # 3. Train a Naïve Bayes classifier
